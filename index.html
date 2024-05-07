@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<icon-view!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,39 +7,49 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | NFT preview card component</title>
-  <link rel="stylesheet" href="nFT.css">
+  <link rel="stylesheet" href="/card.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<section class="nft">
-  <div class="card">
-     <div class="image1"><a href="#"><img src="images/image-equilibrium.jpg" alt="" srcset=""></a></div>
-    <div class="equil">
- <h2><a href="#">Equilibrium #3429</a></h2>
-
-  <p>Our Equilibrium collection promotes</p>
-  <p>balance and calm.</p>
+<section class="container">
+  <div class="wrapper">
+<div class="equilibrum-image">
+  <div class="icon-view"><img class="" src="/images/icon-view.svg" alt=""></div>
+  <!-- <img src="/images/image-equilibrium.jpg" alt=""> -->
+  
 </div>
-<div class="days">
-  <div class="eth"><img src="images/icon-ethereum.svg" alt="" srcset="">&nbsp;&nbsp;&nbsp;0.041 ETH</div>
- <div class="left"><img src="images/icon-clock.svg" alt="" srcset="">&nbsp;&nbsp;&nbsp;3 days left</div>
+<div class="equilibrium">
+  <h1> Equilibrium #3429</h1>
+  <p>Our Equilibrium collection promotes <br> balance and calm.</p>
 </div>
-<div class="hr"><hr></div>
-<div class="creation">
-  <div class="image2"><img src="images/image-avatar.png" alt="" srcset=""></div>
-<div class="Jules"><p>Creation of &nbsp;&nbsp;&nbsp;<a href="#">Jules Wyvern</a></p></div>
+<div class="add">
+  <div class="icon ethereum">
+    <img src="/images/icon-ethereum.svg" alt="">
+    <h6>0.041 ETH</h6>
+  </div>
+  <div class="icon clock">
+    <img src="/images/icon-clock.svg" alt="">
+    <h6> 3 days left</h6>
+  </div>
+</div>
+<hr>
+<div class="jules">
+  <img src="/images/image-avatar.png" alt="">
+  <p> Creation of </p> <a id="anchor" href="#">Jules Wyvern</a>
 </div>
 </div>
 </section>
 
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+  
+
+
 </body>
 </html>
